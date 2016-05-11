@@ -261,7 +261,7 @@ if __name__== "__main__":
 	time.sleep(10)
 	
 	stop_AVrecording(filename)
-	print "OK"
+	print "Done	"
 
 
 
