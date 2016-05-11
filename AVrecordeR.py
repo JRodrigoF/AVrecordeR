@@ -19,8 +19,7 @@ import os
 ## Usage:
 ## 
 ## numpy, PyAudio and Wave need to be installed
-## install openCV, locate the file cv2.pyd and make sure it is or copy it to
-## ~ C:\Program Files\WorldViz\Vizard5\bin\lib\site-packages
+## install openCV, make sure the file cv2.pyd is located in the same folder as the other libraries
 ## install ffmpeg and make sure the ffmpeg .exe is in the working directory
 ##
 ## 
