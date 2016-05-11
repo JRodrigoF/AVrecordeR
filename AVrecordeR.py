@@ -1,4 +1,4 @@
-﻿import cv2
+import cv2
 import pyaudio
 import wave
 import threading
@@ -6,6 +6,14 @@ import time
 import subprocess
 import os
 
+########################
+## JRF
+## VideoRecorder and AudioRecorder are two classes based on openCV and pyaudio, respectively. 
+## By using multithreading these two classes allow to record simultaneously video and audio.
+## ffmpeg is used for muxing the two signals
+## A timer loop is used to control the frame rate of the video recording. This timer as well as
+## the final encoding rate can be adjusted according to camera capabilities
+##
 
 ########################
 ## Usage:
@@ -261,7 +269,7 @@ if __name__== "__main__":
 	time.sleep(10)
 	
 	stop_AVrecording(filename)
-	print "Done	"
+	print "Done"
 
 
 
