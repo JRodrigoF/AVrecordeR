@@ -69,6 +69,10 @@ class VideoRecorder():
 #					counter += 1
 #					timer_current = time.time() - timer_start
 					time.sleep(0.16)
+					
+					# Uncomment the following three lines to make the video to be
+					# displayed to screen while recording
+					
 #					gray = cv2.cvtColor(video_frame, cv2.COLOR_BGR2GRAY)
 #					cv2.imshow('video_frame', gray)
 #					cv2.waitKey(1)
